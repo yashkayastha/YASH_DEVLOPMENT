@@ -1,0 +1,99 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+#cmmsg {display:none;}
+#emmsg {display:none;}
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+#cmmsg {display:none;}
+#emmsg {display:none;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+ @media only screen and (min-width : 1281px) and (max-width:2560px) {
+}
+@media only screen and (max-width: 920px) {
+.ptitle {
+	font-size: 1.5em;
+}
+#cmmsg {display:none;}
+#emmsg {display:none;}
+}
+@media only screen and (max-width: 1239px) {
+.ptitle {
+	font-size: 1.5em;
+}
+#cmmsg {display:none;}
+#emmsg {display:none;}
+}
+@media only screen and (max-width: 810px) {
+.ptitle {
+	font-size: 1.3em;
+}
+.logo-top {
+	width: 60% !important;
+}
+.float-left-logo {
+	width: 20% !important;
+}
+.ptitle {
+	display: none;
+}
+.ptitle2 {
+	display: block;
+	font-weight: bold;
+}
+#cmmsg {display:none;}
+#emmsg {display:none;}
+}
+@media only screen and (max-width: 520px) {
+	.top-width .float-right{ position: absolute; right:0; top: 12px; /*width: 50%;*/ width:auto;}
+	.top-width .float-left-txt{ display:block;}
+	.logo-top{ width:auto !important;}
+	.top-width .float-left-logo{width: 25% !important;}
+	/*.resultsem { display:none !important;}*/
+	table td.subject-col{ width:35%;}
+	#cmmsg {display:none;}
+	#emmsg {display:none;}
+	
+}
+@media only screen and (max-width: 515px) {.secondcol{ display:block; width:100%; border-top:1px solid #e7e7e7; margin-top:3px; padding-top:3px;} #cmmsg {display:none;} #emmsg {display:none;}}
+@media only screen and (max-width: 300px) {	.top-width .float-right{ width: 60% ;}}
